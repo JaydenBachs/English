@@ -1108,6 +1108,15 @@ img {
   border-bottom: 1px solid;
   border-color: #c5c5c5;
 }
+
+.special-author {
+  border-top: 1px solid;
+  border-bottom: 1px solid;
+  border-color: white;
+  padding: 0 0 50px 0;
+  
+}
+
 .blog-post-author .author-thumbnail {
   -webkit-box-flex: 0;
   -ms-flex: 0 0 132px;
@@ -1289,11 +1298,11 @@ img {
 }
 
 /* Courses Area CSS */
-.courses__100, .courses__200, .courses__300 {
+.courses__100, .courses__200, .courses__300, .courses__400 {
   display: grid;
   margin: 30px 10%;
   grid-gap: 10px;
-  grid-template-columns: repeat(5, 1fr);
+  grid-template-columns: repeat(2, 1fr);
 }
 
 .course {
@@ -1305,6 +1314,7 @@ img {
   gap: 10px;
   padding: 10px;
   /* border-radius: 8px; */
+  height: 200px;
   border: 1px solid var(--purple);
 }
 
@@ -1316,6 +1326,7 @@ p.course__code {
 
 p.course__title {
   text-align: center;
+  color: black;
 }
 
 .course:hover {
