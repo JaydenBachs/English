@@ -58,6 +58,17 @@ h6 {
   font-family: "helveticaneuemedium";
 }
 
+@media only screen and (max-width: 767px) {
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-size: 1.2rem;
+  }
+}
+
 p {
   color: #878787;
   font-size: 14px;
